@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e93c382381ad4bb5af0dd58c563b33c, type: 3}
+  m_Name: WhiteBullet
+  m_EditorClassIdentifier: Assembly-CSharp::BulletData
+  lifeTime: 3
+  bulletPrefeb: {fileID: 2004553344276664030, guid: 07ce9699c672a4c2490da1c2a2253d92, type: 3}
+  speed: 10
+  canPenetrate: 0

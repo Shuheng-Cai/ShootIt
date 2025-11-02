@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e93c382381ad4bb5af0dd58c563b33c, type: 3}
+  m_Name: BlueBullet
+  m_EditorClassIdentifier: Assembly-CSharp::BulletData
+  lifeTime: 0
+  bulletPrefeb: {fileID: 3561757660816527120, guid: 081441b7eff5b439293b9004272885d8, type: 3}
+  speed: 0
+  canPenetrate: 1

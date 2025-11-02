@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882b3e9eb09e341c2b6401e751b6f727, type: 3}
+  m_Name: PigDate
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyId: 0
+  prefeb: {fileID: 3251117912709950894, guid: 21ca6d74f4dd24f20a331594b9ca71d5, type: 3}
+  baseWeight: 1
+  growthPerTenSecond: 0
+  updateWave: 0

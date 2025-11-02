@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff76d685c04c4456abdf5ab165744f7, type: 3}
+  m_Name: BlueForm
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFormObjects
+  formAnimController: {fileID: 9100000, guid: cd2392903fb694b92a4cf9a30cd66424, type: 2}
+  baseBullet: {fileID: 11400000, guid: a1ce9ac1ea91249c4a5f28113268f39b, type: 2}
+  formName: BlueState
+  UIName: Blue

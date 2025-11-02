@@ -1,0 +1,31 @@
+# ---- Unity 项目忽略 ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+# OS
+.DS_Store
+Thumbs.db
+# 包管理生成
+Packages/com.unity.render-pipelines.*
+# Crash/Profiler
+*.stacktrace
+# Rider/VSCode等
+.idea/
+.vscode/
+*.DotSettings.user
