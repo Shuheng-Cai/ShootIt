@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PigDate
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyId: 0
+  maxLife: 10
+  damageToPlayer: 10
   prefeb: {fileID: 3251117912709950894, guid: 21ca6d74f4dd24f20a331594b9ca71d5, type: 3}
   baseWeight: 1
   growthPerTenSecond: 0

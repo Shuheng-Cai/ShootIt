@@ -179,11 +179,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6715ac057ed394c1fbfc48386c75048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pig
-  life: 20
-  maxlife: 0
-  speed: 4
   target: {x: 0, y: 0, z: 0}
+  life: 20
+  speed: 4
   damage: 10
+  animator: {fileID: 0}
+  enemyData: {fileID: 11400000, guid: 5b799d901f38449b1a5362287826db28, type: 2}
   angryPig: {fileID: 9100000, guid: d8bb8db4a7a8a4ec58d2d5bb6a875086, type: 2}
 --- !u!95 &7007043211868276276
 Animator:

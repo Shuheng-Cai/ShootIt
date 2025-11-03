@@ -2,7 +2,7 @@ using PixelBattleText;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class TextMananger : MonoBehaviour
+public class LevelUpTextMananger : MonoBehaviour
 {
     public TextAnimation levelUp;
     private Vector3 textSpawnPosition = new Vector3(.5f,.65f, 0);

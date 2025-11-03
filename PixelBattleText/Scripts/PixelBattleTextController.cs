@@ -171,7 +171,7 @@ namespace PixelBattleText
 			{
 				var text = animatedTexts[i];
 
-				if (text.animationFinished)
+				if (text.animationFinished && text.props.canEnd)
 				{
 					RemoveText(i);
 					i--;

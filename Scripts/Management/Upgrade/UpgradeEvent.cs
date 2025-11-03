@@ -24,9 +24,8 @@ public class UpgradeEvent : MonoBehaviour
         if (upgradeEvent == null)
             upgradeEvent = new UnityEvent<List<UpgradeOption>>();
 
-        upgradeEvent.AddListener(textMananger.GetComponent<TextMananger>().LevelUpSbscribe);
-        //upgradeEvent.AddListener(UI.GetComponent<UpgradeUIManager>().ShowUpgradeOptions);
-
+        upgradeEvent.AddListener(textMananger.GetComponent<LevelUpTextMananger>().LevelUpSbscribe);
+        upgradeEvent.AddListener(UI.GetComponent<UpgradeUIManager>().ShowUpgradeOptions);
 
         upgradeList = transform.GetComponent<UpgradeList>();
     }

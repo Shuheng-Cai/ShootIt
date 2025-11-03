@@ -185,7 +185,7 @@ MonoBehaviour:
   damage: 0
   animator: {fileID: 0}
   enemyData: {fileID: 11400000, guid: 2a7a50e89460f4d6ba753beda9266990, type: 2}
-  distanceToPlayer: 2
+  distanceToPlayer: 10
   bulletPrefabs: {fileID: 3022782251425956794, guid: beadcf5d9b1244a2a9b56f22567d6a6d, type: 3}
 --- !u!95 &8549560804535582696
 Animator:

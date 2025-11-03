@@ -34,7 +34,6 @@ public abstract class Enemy : MonoBehaviour
             if (player != null)
             {
                 targetTransform = player.transform;
-                Debug.Log(1);
             }
         }
     }

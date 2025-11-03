@@ -42,6 +42,10 @@ namespace PixelBattleText
 		public float endSpacing = 9;
 		///<summary>Determines the progress of the animation from initial spacing to end spacing following a curve from 0 to 1, where 0 is the initial spacing and 1 the end.</summary>
 		public AnimationCurve spacingCurve = AnimationCurve.Constant(0, 1, 1);
+		/// <summary>
+		/// Whether this animation will end or not.
+		/// </summary>
+		public bool canEnd = true;
 
 		[Header("Offset Animation")]
 		///<summary>Determines a vector (in canvas pixels) to be added to the pivot at the begining of the animation.</summary>
