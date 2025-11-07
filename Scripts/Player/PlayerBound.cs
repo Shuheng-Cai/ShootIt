@@ -1,10 +1,9 @@
-// ==================================================
 // Module: PlayerBound
-// Purpose: Control player not to move exceed the bound by Leftlow and Rightup
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Purpose: Haven't used
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: 
 
 using UnityEngine;
 

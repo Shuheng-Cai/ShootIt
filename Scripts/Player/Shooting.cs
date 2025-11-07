@@ -1,10 +1,9 @@
-// ==================================================
 // Module: Shooting
-// Purpose: control player to shoot
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: BaseBullet
-// ==================================================
+// Purpose: Player shoot.
+// Invariants: 
+// Performance: 
+// Dependencies: Player State; Bullet
+// Known Tricky Cases: 
 
 using System.Collections;
 using UnityEngine;
@@ -62,7 +61,7 @@ public class Shooting : MonoBehaviour
         GameObject bullet = Instantiate(currentBulletData.bulletPrefeb, transform.position, bulletRotation);
         bullet.GetComponent<BaseBullet>().Init(currentBulletData);
         bullet.SetActive(true);
-        yield return new WaitForSeconds(bullet.GetComponent<BaseBullet>().fireRate);
+        yield return new WaitForSeconds(transform.GetComponent<PlayerState>().fireRate);
         canShoot = true;
     }
 }

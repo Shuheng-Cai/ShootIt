@@ -1,10 +1,9 @@
-// ==================================================
-// Module: PlayerUpgrade
-// Purpose: To response the UpgradeEvents (Player!)
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: BaseBullet->damage, fireRate; PlayerState->currentlife; PlayerControl->moveSpeed; 
-// ==================================================
+// Module: PlayerUpdate
+// Purpose: Control player to update;
+// Invariants: 
+// Performance: 
+// Dependencies: PlayerController, PlayerState
+// Known Tricky Cases: 
 
 using UnityEngine;
 using UnityEngine.Events;

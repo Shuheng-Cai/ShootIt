@@ -1,3 +1,10 @@
+// Module: Bee
+// Purpose: Create GameOer text
+// Invariants: 
+// Performance: 
+// Dependencies: Enemy and the position of Player
+// Known Tricky Cases: 
+
 using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;

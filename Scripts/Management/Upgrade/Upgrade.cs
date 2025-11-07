@@ -1,11 +1,9 @@
-
-// ==================================================
-// Module: PlayerBound
-// Purpose: Upgrade type; To realize Update, can use Update method
-// Author: Shuheng
-// Date: 2025/10/12
-// Dependencies: None
-// ==================================================
+// Module: Upgrade Class
+// Purpose: Define UpgradeOption
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: May be can be ScriptableObject
 
 using UnityEngine;
 
@@ -39,9 +37,4 @@ public class UpgradeOption
 public enum UpgradeType
 {
     FireRate, Damage, MoveSpeed, Form, Heal
-}
-
-public enum FormType
-{
-    yellowState, blueState, greenState
 }

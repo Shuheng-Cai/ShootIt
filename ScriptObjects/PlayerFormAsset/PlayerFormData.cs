@@ -1,3 +1,9 @@
+// Module: PlayerFormData
+// Purpose: Store the data of PlayerForm.
+// Invariants: 
+// Performance: 
+// Dependencies: PixelBattleTextController
+// Known Tricky Cases: Create Canvas, Create a empty rect transform and use this and add PixelBattleTextController
 
 using UnityEngine;
 

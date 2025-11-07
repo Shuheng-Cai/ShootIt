@@ -1,10 +1,10 @@
-// ==================================================
-// Module: PlayerBound
-// Purpose: subscribe event From FormUIMananger which create form change option to player;
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Module: PlayerForm
+// Purpose: Control the form of Player. Put the bullet to the PlayerFormData.
+// Invariants: factory, player
+// Performance: 
+// Dependencies: StateFactory; PlayerFormData;
+// Known Tricky Cases: changeForm is subscribe in the FormUIManger.cs and get the PlayerFormData to create in the factory
+//                     Then, enter, so you should Reigister in StateFactory this type.
 
 using System;
 using System.Collections.Generic;
@@ -31,8 +31,9 @@ public class PlayerForm : MonoBehaviour
 
     public void AddForm(FormState formChange)
     {
-        
+
     }
+    
     public void ChageForm(PlayerFormData playerFormObjects)
     {
         FormState formState = factory.Create(playerFormObjects.formName, player);

@@ -1,10 +1,9 @@
-// ==================================================
-// Module: WhiteBullet
-// Purpose: second Bullet, spawn a lighting beside player
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: BaseBullet
-// ==================================================
+// Module: YelloweBullet
+// Purpose: Stay Still
+// Invariants: 
+// Performance: 
+// Dependencies:
+// Known Tricky Cases:
 
 using UnityEngine;
 

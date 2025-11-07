@@ -1,10 +1,9 @@
-// ==================================================
 // Module: BaseBullet
-// Purpose: define the spawn time and speed espacially whether can penentrate
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Purpose: Define the father type of Bullet.
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: canPenetrate; fireRate is from Player state, which is not from the bullet.
 
 using UnityEngine;
 
@@ -12,7 +11,6 @@ public abstract class BaseBullet : MonoBehaviour
 {
     public float damage;
     public float speed;
-    public float fireRate; // spawn interval time;
     public GameObject player;
     public float lifeTime = 3f;
     public bool canPenetrate = false;
@@ -28,8 +26,6 @@ public abstract class BaseBullet : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         damage = player.GetComponent<PlayerState>().shootDamage;
-        speed = player.GetComponent<PlayerState>().shootSpeed;
-        fireRate = player.GetComponent<PlayerState>().fireRate;
     }
 
     protected virtual void Start()

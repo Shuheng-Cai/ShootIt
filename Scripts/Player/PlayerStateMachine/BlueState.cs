@@ -1,10 +1,8 @@
-// ==================================================
 // Module: BlueState
-// Purpose: canPenetrate
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Purpose: Blue form, the bullet can penetrate enemy
+// Invariants: 
+// Performance: 
+// Dependencies: FormState, BlueBullet
 
 using UnityEngine;
 

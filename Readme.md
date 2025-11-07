@@ -1,15 +1,13 @@
 # Shoot It - Unity 2D Shooter Game 🎮
 
-A top-down 2D shooter where the player moves within a fixed camera view, shoots enemies, and collects gold. Every 30 seconds, the player levels up and can choose a new upgrade.
+A top-down 2D shooter where the player moves within a fixed camera view, shoots enemies. Every 30 seconds, the player levels up and can choose a new upgrade.
 
 ---
 
 ## 🧩 Features
 - Player movement and shooting mechanics  
-- Enemy spawning and AI tracking  
-- Gold drop and pickup system  
+- Enemy spawning and AI tracking    
 - Timed upgrade system (every 30 seconds)
-- Modular C# codebase using `IEnumerator` and `LINQ`
 
 ---
 
@@ -24,13 +22,7 @@ A top-down 2D shooter where the player moves within a fixed camera view, shoots 
 | Key | Action |
 |-----|---------|
 | WASD | Move |
-| Mous | Auto Shoot |
-| Esc | Pause |
-
----
-
-## 📸 Screenshots
-![Gameplay Screenshot](https://example.com/screenshot.png)
+| Mous | Control Shooting and movement Direction |
 
 ---
 
@@ -38,15 +30,17 @@ A top-down 2D shooter where the player moves within a fixed camera view, shoots 
 ```text
 Assets/
  ┣ Scripts/
- ┃ ┣ Player/
+ ┃ ┣ Player/  
+ ┃ ┃ ┣ PlayerStateMachine/ StateFactory   
  ┃ ┃ ┣ PlayerController.cs
- ┃ ┃ ┣ Shooting.cs
+ ┃ ┃ ┣ Shooting.cs                  
  ┃ ┃ ┣ PlayerStats.cs
  ┃ ┃ ┣ PlayerUpgrade.cs
  ┃ ┃ ┗ PlayerBound.cs
  ┃ ┣ Enemy/
- ┃ ┃ ┣ EnemyAI.cs
- ┃ ┃ ┣ Pig.cs
+ ┃ ┃ ┣ Enenmy.cs
+ ┃ ┃ ┣ Pig/  
+ ┃ ┃ ┣ Bee/Bee BeeBullet
  ┃ ┃ ┗ EnemySpawn.cs
  ┃ ┣ Bullets/
  ┃ ┃ ┣ BaseBullet.cs
@@ -54,19 +48,32 @@ Assets/
  ┃ ┃ ┣ BlueBullet.cs
  ┃ ┃ ┗ YellowBullet.cs
  ┣ ScriptObjects/
+ ┃ ┣ BulletAsset/
+ ┃ ┣ ┣ BulletDate.cs
+ ┃ ┣ ┣ BlueBullet.Asset
+ ┃ ┣ ┣ WhiteBullet.Asset
+ ┃ ┣ ┣ YellowBullet.Asset
  ┃ ┣ EnemyAsset/
- ┃ ┃ ┣ EnemyDate.cs
+ ┃ ┃ ┣ BeeDate.Asset
  ┃ ┃ ┣ PigDate.Asset
  ┃ ┣ PlayerFormAsset/
  ┃ ┃ ┣ PlayerFormObject.cs
  ┃ ┃ ┣ BlueForm.Asset
+ ┃ ┣ ┣ YellowForm.Asset
  ┣ Prefabs/
-
  ┗ Scenes/
-    ┗ MainScene.unity
+    ┣ MainMenu.unity
+    ┣ GamePlaye
+    ┣ GameOver
 ```
 
 ---
 
 ## 🚀 How to Run
 
+---
+
+# Future Work 👷
+- More Enemys: Ghost and Bunny.
+- Gold and store system.
+- Achievement and record the data

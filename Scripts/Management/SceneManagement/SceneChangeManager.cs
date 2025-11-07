@@ -1,3 +1,10 @@
+// Module: SceneChangeMananger
+// Purpose: Control Scene to change
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: 
+
 using UnityEngine.SceneManagement;
 
 public static class SceneChangeManager

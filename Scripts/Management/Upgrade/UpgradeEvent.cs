@@ -1,10 +1,9 @@
-// ==================================================
-// Module: UpgradeEvent
-// Purpose: Upgrade Event
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Module: GameOverTextController
+// Purpose: To control upgrade, after an upgradeInterval.
+// Invariants: 
+// Performance: There is a upgradeEvent list. 
+// Dependencies: Upgrade; UpgradeList
+// Known Tricky Cases: To instantialize Upgrade 
 
 using System.Collections.Generic;
 using UnityEngine;

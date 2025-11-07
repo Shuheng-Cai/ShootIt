@@ -1,10 +1,10 @@
-// ==================================================
 // Module: EnemySpawn
-// Purpose: control enemy to spawn in a fixed range; can be faster by spawnTime and num of Coroutime.
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Purpose: Control Eneny to spawen considering the wave
+// Invariants: 
+// Performance: 
+// Dependencies: EnemyData
+// Known Tricky Cases: unlock the enemy according to the wave of enemy. And spawn enemy according to the weight.
+// Especially: there is a enemyPool, inQueue and out Queue
 
 
 using System.Collections;

@@ -1,11 +1,10 @@
-// ==================================================
-// Module: PlayerBound
-// Purpose: subscribe event From FormUIMananger which create form change option to player;
-// When Update, please update In FormAnimList And FormList
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Module: FormState
+// Purpose: the father class of Form
+// Invariants: 
+// Performance: Enter; Update; Exit.
+// Dependencies: 
+// Known Tricky Cases: can get player when create.
+
 
 using UnityEngine;
 

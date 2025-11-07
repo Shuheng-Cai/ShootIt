@@ -1,3 +1,11 @@
+// Module: EnemyData
+// Purpose: Create enemy scriptalbe object
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: remeber baseWeight is the Weight to spawn, the bigger the more frequent
+//                     UpdateWave is when the enemy can spawn
+
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Game/EnemyData")]

@@ -1,10 +1,9 @@
-// ==================================================
-// Module: PlayerController
-// Purpose: Control Player to Move
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Module: StateFactory
+// Purpose: Control player's move.
+// Invariants: rb, moveInput
+// Performance: 
+// Dependencies: when update, the moveSpeed will upgrade; the basic speed is 10;
+// Known Tricky Cases: 
 
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,7 +12,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed; //move speed
     public Rigidbody2D rb;  //Get the rigidbody to control moving
-    public Vector2 moveInput;
+    private Vector2 moveInput;
     private PlayerInput playerInput;
 
     void Start()

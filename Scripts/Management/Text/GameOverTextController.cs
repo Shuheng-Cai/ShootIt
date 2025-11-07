@@ -1,3 +1,10 @@
+// Module: GameOverTextController
+// Purpose: Create GameOer text
+// Invariants: 
+// Performance: 
+// Dependencies: PixelBattleTextController
+// Known Tricky Cases: Create Canvas, Create a empty rect transform and use this and add PixelBattleTextController
+
 using UnityEngine;
 using PixelBattleText;
 using System.Collections;

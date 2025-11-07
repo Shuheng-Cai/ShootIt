@@ -1,10 +1,9 @@
-// ==================================================
-// Module: Yellow State
-// Purpose: flash bullet/ move 
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: None
-// ==================================================
+// Module: YellowState
+// Purpose: YellowState, spawn a light under player.
+// Invariants: 
+// Performance: 
+// Dependencies: FormState; StateFactory
+// Known Tricky Cases: 
 
 using UnityEngine;
 

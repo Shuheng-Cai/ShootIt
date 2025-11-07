@@ -1,10 +1,9 @@
-// ==================================================
 // Module: FormUIManager
-// Purpose: Change Form
-// Author: Shuheng
-// Date: 2025/10/11
-// Dependencies: Upgrade Class/ Now only Depend on PlayerFormObjects(ScriptObject!) only need to update this
-// ==================================================
+// Purpose: Upgrade the form. Show the UI.
+// Invariants: 
+// Performance: 
+// Dependencies: PlayerFormData
+// Known Tricky Cases: Create Canvas, Create a empty rect transform and use this and add PixelBattleTextController
 
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,3 +1,11 @@
+// Module: StateFactory
+// Purpose: Create a dictionary to store form, when create a form, should add to this dictionary.
+// Invariants: 
+// Performance: 
+// Dependencies: The form of Player
+// Known Tricky Cases: 
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

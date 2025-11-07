@@ -1,3 +1,10 @@
+// Module: BlueBullet
+// Purpose: 
+// Invariants: 
+// Performance: 
+// Dependencies:
+// Known Tricky Cases:
+
 using UnityEngine;
 
 public class BlueBullet : BaseBullet

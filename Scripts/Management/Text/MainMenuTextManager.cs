@@ -1,3 +1,10 @@
+// Module: MainMenuTextController
+// Purpose: Create GameOer text
+// Invariants: 
+// Performance: 
+// Dependencies: PixelBattleTextController
+// Known Tricky Cases: Create Canvas, Create a empty rect transform and use this and add PixelBattleTextController
+
 using PixelBattleText;
 using UnityEngine;
 using UnityEngine.SceneManagement;

@@ -1,3 +1,9 @@
+// Module: UpgradeObject
+// Purpose: Haven't been used
+// Invariants: 
+// Performance: 
+// Dependencies: 
+// Known Tricky Cases: 
 using UnityEngine;
 
 public class UpgradeObject : ScriptableObject
