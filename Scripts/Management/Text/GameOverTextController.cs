@@ -1,8 +1,6 @@
 using UnityEngine;
 using PixelBattleText;
-using System.Collections.Generic;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class GameOverTextController : MonoBehaviour
 {

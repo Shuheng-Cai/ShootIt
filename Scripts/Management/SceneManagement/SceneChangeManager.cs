@@ -1,5 +1,3 @@
-using UnityEngine;
-using System;
 using UnityEngine.SceneManagement;
 
 public static class SceneChangeManager

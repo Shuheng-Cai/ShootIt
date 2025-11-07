@@ -1,5 +1,3 @@
-using System.Security.Cryptography;
-using UnityEditor.Animations;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Game/EnemyData")]

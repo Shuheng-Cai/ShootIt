@@ -1,10 +1,11 @@
-using UnityEditor.Animations;
+
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Game/PlayerFormData")]
 public class PlayerFormData : ScriptableObject
 {
-    public AnimatorController formAnimController;
+    public RuntimeAnimatorController formAnimController;
+
     public BulletData baseBullet;
     public string formName;
     public string UIName;

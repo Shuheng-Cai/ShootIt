@@ -15,11 +15,11 @@ MonoBehaviour:
   font: {fileID: 11400000, guid: 554d25ed6addaf34f9824d8cfe5a5d44, type: 2}
   textSize: 128
   alignment: 1
-  transitionDuration: 2
-  perLetterDelay: 0.05
+  transitionDuration: 4
+  perLetterDelay: 0.5
   invertAnimationOrder: 0
-  initialSpacing: 15
-  endSpacing: 18
+  initialSpacing: 50
+  endSpacing: 50
   spacingCurve:
     serializedVersion: 2
     m_Curve:
@@ -44,9 +44,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  canEnd: 1
-  initialOffset: {x: 0, y: 15}
-  endOffset: {x: 0, y: -5}
+  canEnd: 0
+  initialOffset: {x: 0, y: 0}
+  endOffset: {x: 0, y: 0}
   offsetCurveX:
     serializedVersion: 2
     m_Curve:

@@ -255,7 +255,7 @@ namespace PixelBattleText
 		}
 		
 		// Start is called before the first frame update
-		private  void Start()
+		private  void OnEnable()
 		{
 			letters = new List<TMP_Text[]>();
 			unusedLetters = new Queue<TMP_Text[]>();

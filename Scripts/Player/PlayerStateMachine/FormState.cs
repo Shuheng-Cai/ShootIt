@@ -7,7 +7,6 @@
 // Dependencies: None
 // ==================================================
 
-using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class FormState

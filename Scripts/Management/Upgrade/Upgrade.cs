@@ -7,8 +7,6 @@
 // Dependencies: None
 // ==================================================
 
-using Mono.Cecil.Cil;
-using UnityEditor.Rendering.Universal;
 using UnityEngine;
 
 public class UpgradeOption

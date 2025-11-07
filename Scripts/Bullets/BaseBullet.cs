@@ -6,9 +6,7 @@
 // Dependencies: None
 // ==================================================
 
-using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.Scripting.APIUpdating;
 
 public abstract class BaseBullet : MonoBehaviour
 {

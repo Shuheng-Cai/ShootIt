@@ -6,7 +6,6 @@
 // Dependencies: take damage by bullet; 
 // ==================================================
 
-using UnityEditor.Animations;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
