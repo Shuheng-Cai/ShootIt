@@ -6,10 +6,7 @@
 // Known Tricky Cases: 
 
 using System.Collections;
-using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.Splines;
-using UnityEngine.Splines.ExtrusionShapes;
 
 public class Bee : Enemy
 {

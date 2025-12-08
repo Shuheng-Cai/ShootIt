@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletData
   lifeTime: 3
   bulletPrefeb: {fileID: 2004553344276664030, guid: 07ce9699c672a4c2490da1c2a2253d92, type: 3}
-  speed: 10
+  damage: 0
+  speed: 100
   canPenetrate: 0

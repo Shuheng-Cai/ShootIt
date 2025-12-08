@@ -106,8 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WhiteBullet
   damage: 10
-  speed: 10
-  fireRate: 4.4
+  speed: 100
   player: {fileID: 0}
   lifeTime: 3
   canPenetrate: 0

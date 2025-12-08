@@ -12,7 +12,7 @@ public abstract class Enemy : MonoBehaviour
 {
     public Vector3 target; 
     private Transform targetTransform;
-    [HideInInspector] public float life;
+    public float life;
     [HideInInspector] public float speed;
     [HideInInspector] public float damage;
     [HideInInspector] private float scalex;
@@ -26,6 +26,7 @@ public abstract class Enemy : MonoBehaviour
         scalex = transform.localScale.x;
         damage = enemyData.damageToPlayer;
         life = enemyData.maxLife;
+        speed = enemyData.speed;
         animator = transform.GetComponent<Animator>();
         if (targetTransform == null)
         {
@@ -52,6 +53,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected abstract void Move();
 
+    // Hit player
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -65,6 +67,8 @@ public abstract class Enemy : MonoBehaviour
             OnHitEnemy(collision);
         }
     }
+
+    
     protected virtual void OnHitEnemy(Collider2D other)
     {
         Destroy(gameObject);

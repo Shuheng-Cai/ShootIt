@@ -11,6 +11,7 @@ public class BulletData : ScriptableObject
 {
     public int lifeTime;
     public GameObject bulletPrefeb;
+    public int damage;
     public float speed;
     public bool canPenetrate;
 }

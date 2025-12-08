@@ -9,17 +9,18 @@ using UnityEngine;
 
 public abstract class BaseBullet : MonoBehaviour
 {
-    public float damage;
-    public float speed;
+    [HideInInspector]public float damage;
+    [HideInInspector]public float speed;
     public GameObject player;
-    public float lifeTime = 3f;
-    public bool canPenetrate = false;
+    [HideInInspector]public float lifeTime = 3f;
+    [HideInInspector]public bool canPenetrate = false;
 
     public void Init(BulletData bulletData)
     {
         this.speed = bulletData.speed;
         this.lifeTime = bulletData.lifeTime;
         this.canPenetrate = bulletData.canPenetrate;
+        this.damage = bulletData.damage;
     }
 
     public void Awake()

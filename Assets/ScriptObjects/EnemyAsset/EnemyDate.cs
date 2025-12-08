@@ -12,6 +12,7 @@ using UnityEngine;
 public class EnemyData : ScriptableObject
 {
     public int enemyId;
+    public int speed;
     public float maxLife;
     public float damageToPlayer;
     public GameObject prefeb;
