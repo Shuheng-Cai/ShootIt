@@ -20,6 +20,22 @@ public class Node : MonoBehaviour
     public float gScore;
     public float hScore;
 
+    void Awake()
+    {
+        NodeManager.instance.allNodes.Add(this);
+    }
+
+    public void Start()
+    {
+        foreach(var node in NodeManager.instance.allNodes)
+        {
+            if(Vector2.Distance(node.transform.position, transform.position) < 1.5f && node != this)
+            {
+                connections.Add(node);
+            }
+        }
+    }
+
     public float FScore()
     {
         return gScore + hScore;

@@ -49,11 +49,11 @@ public class AStarManager : MonoBehaviour
                 if(n.gScore  > currentNode.gScore + n.penalty)
                 {
                     n.cameFrom = currentNode;
-                    n.gScore = currentNode.gScore + n.penalty;
+                    n.gScore = currentNode.gScore + Vector2.Distance(currentNode.transform.position, n.transform.position) + n.penalty;
                     if (!openSet.Contains(n))
                     {
                         n.cameFrom = currentNode;
-                        n.gScore = currentNode.gScore + n.penalty;
+                        n.gScore = currentNode.gScore + n.penalty + Vector2.Distance(currentNode.transform.position, n.transform.position);
                         n.hScore = Vector2.Distance(n.transform.position, end.transform.position);
                         openSet.Add(n);
                     }
@@ -62,8 +62,10 @@ public class AStarManager : MonoBehaviour
             
             if(currentNode == end)
             {
-                List<Node> path = new List<Node>();
-                path.Add(end);
+                List<Node> path = new List<Node>
+                {
+                    end
+                };
 
                 while(path[path.Count - 1].cameFrom != null)
                 {
